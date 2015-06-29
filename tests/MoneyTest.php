@@ -56,7 +56,8 @@ class MoneyTest extends \PHPUnit_Framework_TestCase
 
         return $m;
     }
-
+    */
+    
     /**
      * @covers \SebastianBergmann\Money\Money::__construct
      * @covers \SebastianBergmann\Money\Money::handleCurrencyArgument
