@@ -47,7 +47,7 @@ class MoneyTest extends \PHPUnit_Framework_TestCase
      * @covers \SebastianBergmann\Money\Money::__construct
      * @covers \SebastianBergmann\Money\Money::handleCurrencyArgument
      * @uses   \SebastianBergmann\Money\Currency
-     */
+     
     public function testObjectCanBeConstructedFromIntegerValueAndCurrencyObject()
     {
         $m = new Money(0, new Currency('EUR'));
